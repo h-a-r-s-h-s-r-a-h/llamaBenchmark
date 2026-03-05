@@ -4857,3 +4857,411 @@ If you have more context or details about the paper, I'd be happy to try and hel
   Judge Reasoning : The given answer does not match the expected factual information, as a videotape reviewer is not typically considered an executive in charge of production.
   Running Accuracy: 2.98%
 
+────────────────────────────────────────────────────────────────────────────────
+  Question 404/4326  |  Topic: Music  |  Type: Place
+────────────────────────────────────────────────────────────────────────────────
+  Q: To accommodate the mourners, where was Bessie Smith's body moved to?
+
+  Expected Answer : O. V. Catto Elks Lodge
+  LLM Answer      : Woolworth's five-and-dime store in Harlem, New York City.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer provides information about a specific retail store (Woolworth's) and location (Harlem, New York City), whereas the Expected Answer specifies an organization (Elks Lodge).
+  Running Accuracy: 2.97%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 405/4326  |  Topic: Geography  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: As of the latest official population estimate in 2015 for the town of Szentes in southeastern Hungary, what is the population density in square kilometers?
+
+  Expected Answer : 79/km2
+  LLM Answer      : 6,341 people per km²
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not match the Expected Answer as it includes a different unit (people per km2 vs. km2) and provides an incorrect conversion.
+  Running Accuracy: 2.96%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 406/4326  |  Topic: Sports  |  Type: Other
+────────────────────────────────────────────────────────────────────────────────
+  Q: In November 2008, which organization ranked Andrew Tate the seventh-best light heavyweight kickboxer in the United Kingdom?
+
+  Expected Answer : International Sport Kickboxing Association (ISKA)
+  LLM Answer      : The Guardian.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide factual information about a sport organization.
+  Running Accuracy: 2.96%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 407/4326  |  Topic: Other  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: How many people were injured in the Srinagar bombing on March 6, 2022?
+
+  Expected Answer : 24
+  LLM Answer      : 8 people
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not provide the correct numerical value of 24.
+  Running Accuracy: 2.95%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 408/4326  |  Topic:   |  Type: 
+────────────────────────────────────────────────────────────────────────────────
+  Q: What was the total number of locations surveyed in all oceans for the study published in 2014 called "Plastic Pollution in the World's Oceans: More than 5 Trillion Plastic Pieces Weighing Over 250,000 Tons Afloat at Sea" by Marcus Eriksen, Laurent C. M. Lebreton, Henry S. Carson, Martin Thiel, Charles J. Moore, Jose C. Borerro, Francois Galgani, Peter G. Ryan, and Julia Reisser?
+
+  Expected Answer : 1571
+  LLM Answer      : No specific total number of locations surveyed was reported in the study. However, it mentioned that plastic pollution had been documented in almost every ocean, bay, or sea.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not provide a specific total number of locations surveyed as requested.
+  Running Accuracy: 2.94%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 409/4326  |  Topic:   |  Type: 
+────────────────────────────────────────────────────────────────────────────────
+  Q: In what year was Benoni Stinson ordained to the ministry in Kentucky?
+
+  Expected Answer : 1821
+  LLM Answer      : I couldn't find any information on a person named Benoni Stinson being ordained to the ministry in Kentucky.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The given answer is unrelated to the question about Benoni Stinson's ordination year.
+  Running Accuracy: 2.93%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 410/4326  |  Topic: Science and technology  |  Type: Person
+────────────────────────────────────────────────────────────────────────────────
+  Q: Which amateur astronomer was 162 Laurentia named after?
+
+  Expected Answer : Joseph Jean Pierre Laurent
+  LLM Answer      : William Herschel
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not contain the correct name; it should be Joseph Jean Pierre Laurent instead.
+  Running Accuracy: 2.93%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 411/4326  |  Topic: Sports  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: On what day, month, and year was Joeri Verlinden born?
+
+  Expected Answer : 22-Jan-88
+  LLM Answer      : I cannot verify the birthdate of Joeri Verlinden.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer fails to provide a date, whereas the Expected Answer clearly states a specific birthdate.
+  Running Accuracy: 2.92%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 412/4326  |  Topic: Art  |  Type: Person
+────────────────────────────────────────────────────────────────────────────────
+  Q: To whom does the garment held by one of the angels in "The Baptism of Christ" by Andrea del Verrocchio and Leonardo da Vinci belong?
+
+  Expected Answer : Jesus
+  LLM Answer      : Christ.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer uses a different term to refer to the expected answer, "Christ" is a variant of the correct term.
+  Running Accuracy: 2.91%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 413/4326  |  Topic: Geography  |  Type: Person
+────────────────────────────────────────────────────────────────────────────────
+  Q: Who founded the municipality of La Uvita, Boyacá, Colombia?
+
+  Expected Answer : Vicente Ferrer del Río de Loza
+  LLM Answer      : I cannot verify who founded La Uvita.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide the founder of La Uvita, whereas the Expected Answer gives a specific name (Vicente Ferrer del Río de Loza).
+  Running Accuracy: 2.91%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 414/4326  |  Topic: Other  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: What day, month, and year was Kris Cuppens born?
+
+  Expected Answer : May 22, 1962
+  LLM Answer      : I couldn't find any information on a person named Kris Cuppens.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The given answer does not provide the correct date, instead stating it could not find any information about a person.
+  Running Accuracy: 2.90%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 415/4326  |  Topic: TV shows  |  Type: Other
+────────────────────────────────────────────────────────────────────────────────
+  Q: Which award and in which category did the animated series "Avatar: The Last Airbender" win in 2006?
+
+  Expected Answer : Annie Awards, Storyboarding in an Animated Television Production
+  LLM Answer      : Annie Award for Best Writing in an Animated Television Production (Bobby Klann)
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer incorrectly identifies the category as "Best Writing" instead of matching the expected "Storyboarding".
+  Running Accuracy: 2.89%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 416/4326  |  Topic: Video games  |  Type: Place
+────────────────────────────────────────────────────────────────────────────────
+  Q: Off of what coast of Morrowind does the DLC Dragonborn take place?
+
+  Expected Answer : North
+  LLM Answer      : The Tamrielic mainland, off the coast of the Great Ocean, however the majority takes place in the East, near Vvardenfell's neighbor, the province of Skyrim.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer provides extra details about location and neighboring provinces that are not part of the Expected Answer.
+  Running Accuracy: 2.88%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 417/4326  |  Topic: Music  |  Type: Other
+────────────────────────────────────────────────────────────────────────────────
+  Q: What was the tenth-ranked song on the 2021 Rolling Stone's "The 500 Greatest Songs of All Time" list?
+
+  Expected Answer : "Hey Ya!" by Outkast
+  LLM Answer      : "Respect" by Aretha Franklin
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer provides a song and artist that do not match the Expected Answer's factual content.
+  Running Accuracy: 2.88%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 418/4326  |  Topic: Politics  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: How many dollars was the Tomball High School bond referendum in Harris County, Texas, in 2000?
+
+  Expected Answer : 98.4 million
+  LLM Answer      : I cannot verify how much money was in the Tomball High School bond referendum in 2000.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide any factual information about the amount of money in the Tomball High School bond referendum in 2000.
+  Running Accuracy: 2.87%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 419/4326  |  Topic: Video games  |  Type: Person
+────────────────────────────────────────────────────────────────────────────────
+  Q: Who was the lead programmer of Project Firebreak who helped create CYAN in Horizon Zero Dawn: The Frozen Wilds?
+
+  Expected Answer : Anita Sandoval
+  LLM Answer      : Ryan Doyle
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer contains different name information than the Expected Answer.
+  Running Accuracy: 2.86%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 420/4326  |  Topic: Art  |  Type: Other
+────────────────────────────────────────────────────────────────────────────────
+  Q: What is the name of Zanele Muholi's first solo exhibition?
+
+  Expected Answer : "Visual Sexuality: Only Half the Picture"
+  LLM Answer      : "Beauty in Darkness".
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not contain any reference to 'half the picture', which is a key component of the Expected Answer.
+  Running Accuracy: 2.86%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 421/4326  |  Topic: Art  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: What day, month, and year did Masaki Tsuji win a Special Award in the 13th Animation Kobe for his writing work?
+
+  Expected Answer : September 24, 2008
+  LLM Answer      : I cannot verify what day, month, and year Masaki Tsuji won a Special Award in the 13th Animation Kobe for his writing work.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Mention of Masaki Tsuji winning an award is incorrect, expected answer only specifies September 24, 2008 date.
+  Running Accuracy: 2.85%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 422/4326  |  Topic: Politics  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: In which month and year did the Washington Post (an American daily newspaper) hire Rana Ayyub (an Indian journalist) as its contributing writer to the Global Opinions section?
+
+  Expected Answer : Sep-19
+  LLM Answer      : I cannot verify in which month and year Rana Ayyub was hired by The Washington Post.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Rana Ayyub's hiring details aren't mentioned, whereas the expected answer is a specific month and year.
+  Running Accuracy: 2.84%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 423/4326  |  Topic: Other  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: What year did chef Jo Seagar's cooking school, café, and kitchenware store "Seagars at Oxford" close?
+
+  Expected Answer : 2015
+  LLM Answer      : I cannot verify when Seagars at Oxford closed.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide a relevant date, but instead mentions Seagars and Oxford, which is unrelated to the Expected Answer.
+  Running Accuracy: 2.84%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 424/4326  |  Topic: TV shows  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: How many times in the same episode did Phoebe Buffay impersonate Estelle after she died?
+
+  Expected Answer : 2
+  LLM Answer      : I cannot verify how many times Phoebe Buffay impersonated Estelle after she died.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not provide a numerical answer, only mentions an impersonation scenario.
+  Running Accuracy: 2.83%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 425/4326  |  Topic: Science and technology  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: In what year was the praying mantis species Eremiaphila bifasciata described by Chopard?
+
+  Expected Answer : 1940
+  LLM Answer      : I cannot verify when the praying mantis species Eremiaphila bifasciata was described by Chopard
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide a specific year but rather mentions a species description that is not the core question.
+  Running Accuracy: 2.82%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 426/4326  |  Topic: Science and technology  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: In which month and year was Service Pack 3 for Windows Fundamentals for Legacy PCs released?
+
+  Expected Answer : Oct-08
+  LLM Answer      : May 2012.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not match the expected date format or factual content.
+  Running Accuracy: 2.82%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 427/4326  |  Topic: Science and technology  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: What is the resolution of the Cat B15 Q in pixels?
+
+  Expected Answer : 480 x 800
+  LLM Answer      : I cannot verify what the resolution of the Cat B15 Q camera is.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not answer the question about the resolution of the Cat B15 Q camera.
+  Running Accuracy: 2.81%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 428/4326  |  Topic: Geography  |  Type: Place
+────────────────────────────────────────────────────────────────────────────────
+  Q: Which was the second largest republic in the Soviet Union?
+
+  Expected Answer : Kazakh Soviet Socialist Republic
+  LLM Answer      : Uzbek SSR.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer incorrectly refers to "Uzbek" instead of the correct name "Kazakh".
+  Running Accuracy: 2.80%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 429/4326  |  Topic: Science and technology  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: What is the wingspan of Eugnosta misella in millimeters?
+
+  Expected Answer : 09-Nov
+  LLM Answer      : 35-45 mm
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not contain the same factual information as the Expected Answer.
+  Running Accuracy: 2.80%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 430/4326  |  Topic: Science and technology  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: In the 2012 research paper titled "Multiplication of EEG Samples through Replicating, Biasing, and Overlapping" by Adham Atyabi et al., between what frequencies was the EEG dataset bandpass filtered, in hertz (Hz)?
+
+  Expected Answer : 1 & 50
+  LLM Answer      : I cannot verify what frequencies were used for bandpass filtering in that research paper.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Does not provide the correct information, specifically missing the frequencies.
+  Running Accuracy: 2.79%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 431/4326  |  Topic: Music  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: In what year was American music producer George Avakian appointed as head of the international department at Columbia Records?
+
+  Expected Answer : 1948
+  LLM Answer      : 1950s (specific date not certain)
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : Lacks specific date and provides a decade instead of a precise year.
+  Running Accuracy: 2.78%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 432/4326  |  Topic: Art  |  Type: Person
+────────────────────────────────────────────────────────────────────────────────
+  Q: Who was the first Western artist whose biography was published while he was alive?
+
+  Expected Answer : Michelangelo Buonarroti
+  LLM Answer      : William Hogarth.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer provides the wrong person, known for his paintings and satire.
+  Running Accuracy: 2.78%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 433/4326  |  Topic: Science and technology  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: Le Chatelier's thermoelectric pyrometer, as discussed in the 1900 report "Clays of New York, Their Properties and Uses," was considered accurate within how many degrees Fahrenheit?
+
+  Expected Answer : 10
+  LLM Answer      : ±10°F
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide a numerical answer, whereas the Expected Answer requires a specific number.
+  Running Accuracy: 2.77%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 434/4326  |  Topic: Other  |  Type: Number
+────────────────────────────────────────────────────────────────────────────────
+  Q: How many times did Joe Powell (stunt performer) get married? What are the names of his wives?
+
+  Expected Answer : Twice, first to Marguerite and then to Juliet.
+  LLM Answer      : I cannot verify how many times Joe Powell was married.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not address the question about Joe Powell's marriages at all.
+  Running Accuracy: 2.76%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 435/4326  |  Topic: Politics  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: What day, month, and year was Ludovico Corrao, an Italian Independent Left politician and lawyer, born?
+
+  Expected Answer : 26-Jun-27
+  LLM Answer      : Ludovico Corrao was born on May 30, 1941.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The given answer does not match the expected date format (dd-mm-yy) and is missing a day.
+  Running Accuracy: 2.76%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 436/4326  |  Topic: Politics  |  Type: Other
+────────────────────────────────────────────────────────────────────────────────
+  Q: What profession did the father of Colombian mathematician and politician Sergio Fajardo Valderrama have?
+
+  Expected Answer : Architect
+  LLM Answer      : I cannot verify what profession the father of Sergio Fajardo Valderrama had.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide any information about a person's profession, whereas the Expected Answer requires specifying a particular profession.
+  Running Accuracy: 2.75%
+
+────────────────────────────────────────────────────────────────────────────────
+  Question 437/4326  |  Topic: Politics  |  Type: Date
+────────────────────────────────────────────────────────────────────────────────
+  Q: During which years did Jean Galloway Bissell, the U.S. Circuit Judge, work in private legal practice in Greenville?
+
+  Expected Answer : 1958-1971
+  LLM Answer      : I cannot verify when Jean Galloway Bissell worked in private legal practice.
+
+  Verdict: ❌ INCORRECT  (Match Type: llm_rejected)
+  Judge Reasoning : The Given Answer does not provide a specific timeframe or any information about Jean Galloway Bissell's work period.
+  Running Accuracy: 2.75%
+
